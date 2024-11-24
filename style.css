@@ -126,3 +126,46 @@ body {
     display: none;
   } */
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.hero-section {
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  max-height: 60vh;
+  margin: 4rem 0 12px;
+}
+
+.intro-text {
+  color: white;
+  padding: 8px;
+}
+
+.download-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 12px;
+  margin-top: 2rem;
+}
+
+.download-btn:hover {
+  cursor: pointer;
+}
+
+.profile-image {
+  border: 2px solid black;
+  margin: -4rem;
+}
+
+.profile-image img {
+  border: 2px solid yellow;
+  width: 100%;
+  /* transform: scale(-1); */
+}
