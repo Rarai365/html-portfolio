@@ -220,3 +220,41 @@ body {
 .skills-container :nth-child(5) i {
   color: violet;
 }
+
+/* my recent work section */
+
+.project-card {
+  width: 200px;
+  height: 250px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+}
+
+.card-image {
+  width: 100%;
+  height: 50%;
+}
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-icon {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.card-icon a {
+  color: var(--text-color);
+}
+
+.card-text {
+  padding: 12px;
+}
+
+.card-text h4 p {
+  margin: -12px;
+}
