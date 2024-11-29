@@ -258,3 +258,16 @@ body {
 .card-text h4 p {
   margin: -12px;
 }
+
+.about-me-container-1 {
+  background-color: beige;
+  display: flex;
+}
+.about-me-image img {
+  height: 150px;
+  width: 150px;
+}
+
+.about-me-text {
+  display: flex;
+}
