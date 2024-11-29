@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   background-color: var(--bg-color);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 :root {
@@ -160,12 +160,12 @@ body {
 }
 
 .profile-image {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: -4rem;
 }
 
 .profile-image img {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 100%;
   /* transform: scale(-1); */
 }
@@ -195,4 +195,28 @@ body {
 
 .vertical-line {
   font-size: 2rem;
+}
+
+/* this is a skills container */
+
+.skills-container {
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.skills-container :nth-child(1) i {
+  color: blue;
+}
+
+.skills-container :nth-child(2) i {
+  color: rgb(225, 15, 33);
+}
+
+.skills-container :nth-child(3) i {
+  color: rgb(158, 158, 107);
+}
+
+.skills-container :nth-child(5) i {
+  color: violet;
 }
