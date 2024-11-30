@@ -273,3 +273,31 @@ body {
 .mail-container i {
   color: var(--primary-color);
 }
+
+/* this is footer container */
+
+.footer-container {
+  background-color: var(--text-color);
+  color: white;
+  align-items: start;
+}
+
+.flex-container ul {
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.flex-container li a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+
+footer {
+  background-color: var(--text-color);
+}
+
+.center-container {
+  color: white;
+}
