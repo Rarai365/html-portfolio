@@ -11,6 +11,11 @@ body {
   --border-color: black;
   --primary-color: #ff4600;
   --box-shadow: 4px -2px 40px 9px rgba(128, 128, 129, 0.625);
+
+  /* dark mode color */
+  --dark-bg-color: black;
+  --dark-text-color: white;
+  --dark-border-color: white;
 }
 
 .flex-container {
@@ -259,7 +264,6 @@ body {
   margin: -12px;
 }
 
-
 .about-me-container-1 {
   background-color: rgb(195, 197, 219);
 }
@@ -279,6 +283,7 @@ body {
 
 .test {
   display: flex;
+}
 
 /* get-in-touch-container */
 
@@ -298,7 +303,7 @@ body {
 /* this is footer container */
 
 .footer-container {
-  background-color: var(--text-color);
+  /* background-color: var(--text-color); */
   color: white;
   align-items: start;
 }
@@ -316,7 +321,7 @@ body {
 }
 
 footer {
-  background-color: var(--text-color);
+  background-color: black;
 }
 
 .center-container {
@@ -341,5 +346,26 @@ go to top section */
 .go-to-top a {
   text-decoration: none;
   color: white;
+}
 
+/* dark mode */
+
+#dark-mode {
+  display: none;
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 7rem;
+  left: 8px;
+  cursor: pointer;
+}
+
+.wrapper-container {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+#dark-mode:checked ~ .wrapper-container {
+  --bg-color: var(--dark-bg-color);
+  --text-color: var(--dark-text-color);
 }
