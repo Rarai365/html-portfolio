@@ -258,3 +258,18 @@ body {
 .card-text h4 p {
   margin: -12px;
 }
+
+/* get-in-touch-container */
+
+.get-in-touch-container {
+  justify-content: space-evenly;
+}
+
+.mail-container {
+  text-align: center;
+  padding: 12px;
+}
+
+.mail-container i {
+  color: var(--primary-color);
+}
