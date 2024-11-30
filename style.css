@@ -260,7 +260,10 @@ body {
 }
 
 .about-me-container-1 {
-  background-color: beige;
+  background-color: rgb(195, 197, 219);
+}
+
+.about-me-image {
   display: flex;
 }
 .about-me-image img {
@@ -269,5 +272,10 @@ body {
 }
 
 .about-me-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.test {
   display: flex;
 }
