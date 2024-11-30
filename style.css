@@ -301,3 +301,23 @@ footer {
 .center-container {
   color: white;
 }
+
+/* 
+go to top section */
+
+.go-to-top {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  line-height: 50px;
+}
+
+.go-to-top a {
+  text-decoration: none;
+  color: white;
+}
