@@ -259,6 +259,7 @@ body {
   margin: -12px;
 }
 
+
 .about-me-container-1 {
   background-color: rgb(195, 197, 219);
 }
@@ -278,4 +279,67 @@ body {
 
 .test {
   display: flex;
+
+/* get-in-touch-container */
+
+.get-in-touch-container {
+  justify-content: space-evenly;
+}
+
+.mail-container {
+  text-align: center;
+  padding: 12px;
+}
+
+.mail-container i {
+  color: var(--primary-color);
+}
+
+/* this is footer container */
+
+.footer-container {
+  background-color: var(--text-color);
+  color: white;
+  align-items: start;
+}
+
+.flex-container ul {
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.flex-container li a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+
+footer {
+  background-color: var(--text-color);
+}
+
+.center-container {
+  color: white;
+}
+
+/* 
+go to top section */
+
+.go-to-top {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  line-height: 50px;
+}
+
+.go-to-top a {
+  text-decoration: none;
+  color: white;
+
 }
